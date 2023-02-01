@@ -1,0 +1,35 @@
+# Underway science seawater supplied to the instrument
+
+Underway science seawater was supplied from 2 (RV Armstrong) to 5 (RV Atlantis; RV Endeavor) meter water depth continuously using a diaphragm pump (gentler than an impeller pump for fragile cells). A ThermoFisher Attune NxT Flow Cytometer (serial #2AFC216190617) equipped with two lasers, green (532 nm, 100mW) and blue (488 nm, 50mW), was configured to sample automatically at approximately two minute intervals from its discrete sampling intake (SIP). It was connected to an inline sampling tee in line with the underway flowing seawater supply. At the intake, water was pulled through a 150-micrometer Nitex mesh pre-filter (except for EN608 where 80-micrometer Nitex mesh was used) to avoid aspirating overly large particles that might clog the system. The focus fluid (sheath) was milli Q water with 3% Sodium chloride (30 ppt), and starting in the spring of 2019 (AR34), 0.1% 2-Phenoxyethanol. The instrument pulled 400 μl samples from the underway flowing seawater. The samples were analyzed at 200 μl per minute. The instrument was manually stopped approximately once per day to run a cleaning cycle and performance test with standard beads (as recommended by the manufacturer). In spring of 2019 (AR34), an additional bead mix was run multiple times daily (FCB bead mix). Cleaning cycle solution originally used 10% bleach but starting in the spring of 2019 on AR34 we switched to a 25% Hellmanex detergent solution.
+
+# Instrument configuration and calibration
+
+Instrument configuration settings and calibration are provided in the Settings_configuration_history file. The table has a row for each research cruise, showing relevant instrument settings or major changes in optical filter configuration, and bead runs for calibration.
+
+Recipe for bead mix:
+
+- 100 ml salt sheath with 0.1% 2 phenoxyethanol 
+
+- 400 ul diluted stock 0.5 um beads Polysciences Inc #19507 
+
+- 5 ul 1-um beads Polysciences Inc #23517 
+
+- 5 drops invitrogen Alignflow plus flow cytometry alignment beads, 6 um  #C47397
+
+# Data processing and quality control
+
+Cells were identified and enumerated from the flow cytometry data files based on their scattering, phycoerythrin (575 nm) and chlorophyll (680 nm) fluorescence signals. Data were organized by cruise (.fcs files b-zipped in this data package) and batch processed using the scripts available at https://github.com/hsosik/NES-LTER/tree/master/Attune.
+
+The size of each cell was estimated from side-angle light scattering. Side scattering signals were normalized using the side scattering signal of 1-um beads (Flow Check High Intensity Alignment Grade Particles, Polysciences) which were part of the bead mix that was run between cruises and periodically during cruises beginning in April 2019. Bead-normalized scattering signals were converted to cell volume estimates based on a calibration curve derived from phytoplankton cultures independently sized on a Coulter Multisizer. Size estimates were additionally quality controlled through comparison to concurrent measurements by an imaging flow cytometer over the size ranges at which the instruments overlap (8-20 um). Cruises for which these overlapping data do not agree are flagged with a size_calibration_flag. Finally, cell volume was converted to cell carbon following the relationships described by Menden-Deuer and Lessard (2000).
+
+# Data package assembly
+
+Code for data package assembly, including metadata from templates, is available on GitHub (https://github.com/WHOIGit/nes-lter-attune-transect-continuous).
+
+# References
+
+CNRS, NERC-BODC, VLIZ and ICES Working Group WP9.5.2 (2019) Ingesting, validating, long-term storage and access of Flow Cytometer data. Deliverable number D9.13. https://www.seadatanet.org/content/download/3721/file/SDC_WP9_D9.13_FlowCytometryDataManagement.pdf
+
+Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for dinoflagellates, diatoms, and other protist plankton. Limnology and Oceanography. 45(3): 569–579.
+
+Neeley, A.R., Soto-Ramos, I., and Proctor, C. (2022) Standards and best practices for reporting flow cytometry observations. A Technical Manual. Version 1.0. Greenbelt, MD., NASA Goddard Space Flight Center, 31pp. DOI: http://dx.doi.org/10.25607/OBP-1864 

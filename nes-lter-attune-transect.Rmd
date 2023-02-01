@@ -1,0 +1,82 @@
+---
+title: "NES-LTER Attune flow cytometer continuous data EDI package assembly"
+author: "Joe Futrelle and Stace Beaulieu"
+date: "January 2023"
+output: html_notebook
+---
+
+Libraries used
+
+```{r}
+# two of the required packages are installed from GitHub
+# library(remotes)
+# remotes::install_github("EDIorg/EMLassemblyline")
+# remotes::install_github("WHOIGit/ediutilities")
+
+library(EMLassemblyline)
+library(ediutilities)
+library(here)
+library(readr)
+library(lubridate)
+```
+
+Read data table
+
+```{r}
+# in the example we expected to merge cruises
+
+# data_table <- merge_csv_directory(here("data")) # example
+# data_table$datetime <- ymd_hms(data_table$datetime)
+
+# now we read in the provided local csv file
+# data_table <- read_csv(here("data/Attune_EDI_Table_merged.csv"))
+# moving data table into main folder to get make_eml to run
+data_table <- read_csv(here("Attune_EDI_Table_merged.csv"))
+
+```
+
+```{r}
+# write the data file to a CSV
+# note this was not needed because data provider merged cruises
+
+# data_table_filename <- "data_table.csv"
+# write_csv(data_table, here(data_table_filename), na = "NaN")
+
+
+```
+
+Read the Excel metadata template and generate text templates used by
+EMLassemblyline
+
+```{r}
+excel_to_template(here("nes-lter-attune-transect-info"),
+                  "Attune_EDI_Table_merged",
+                  rights = "CCBY")
+```
+Generate the package and insert the parent project node into the resulting EML
+
+```{r}
+# now using actual package ID
+pkg_id <- "knb-lter-nes.17.1"
+
+make_eml(here(),
+         dataset.title = "Abundance, biovolume, and biomass of Synechococcus and eukaryote pico- and nano- plankton from continuous underway flow cytometry during NES-LTER Transect cruises, ongoing since 2018",
+         data.table = "Attune_EDI_Table_merged.csv",
+         data.table.description = "Data table with picoeuk and Syn cell, biovolume, and biomass concentration and time and position sampled",
+         data.table.name = "Attune_EDI_Table_merged",
+         temporal.coverage = temporal_coverage(data_table$date_time_utc),
+         geographic.description = "NES-LTER Transect",
+         geographic.coordinates = geographic_coordinates(data_table$latitude,
+                                                         data_table$longitude),
+         maintenance.description = "ongoing",
+         user.id = "NES",
+         user.domain = "LTER",
+         other.entity = c("Settings_configuration_history.csv"),
+         other.entity.description = c("Metadata for instrument settings configuration per cruise"),
+         other.entity.name = c("Settings configuration history"),
+         package.id = pkg_id)
+
+project_insert(pkg_id,'parent_project_SPIROPA_OTZ_RAPID.xml')
+
+issues()
+```
