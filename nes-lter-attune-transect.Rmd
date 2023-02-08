@@ -31,7 +31,7 @@ Read data table
 # now we read in the provided local csv file
 # data_table <- read_csv(here("data/Attune_EDI_Table_merged.csv"))
 # moving data table into main folder to get make_eml to run
-data_table <- read_csv(here("Attune_EDI_Table_merged.csv"))
+data_table <- read_csv(here("attune-transect-underway-continuous.csv"))
 
 ```
 
@@ -50,7 +50,7 @@ EMLassemblyline
 
 ```{r}
 excel_to_template(here("nes-lter-attune-transect-info"),
-                  "Attune_EDI_Table_merged",
+                  "attune-transect-underway-continuous",
                   rights = "CCBY")
 ```
 Generate the package and insert the parent project node into the resulting EML
@@ -61,9 +61,9 @@ pkg_id <- "knb-lter-nes.17.1"
 
 make_eml(here(),
          dataset.title = "Abundance, biovolume, and biomass of Synechococcus and eukaryote pico- and nano- plankton from continuous underway flow cytometry during NES-LTER Transect cruises, ongoing since 2018",
-         data.table = "Attune_EDI_Table_merged.csv",
+         data.table = "attune-transect-underway-continuous.csv",
          data.table.description = "Data table with picoeuk and Syn cell, biovolume, and biomass concentration and time and position sampled",
-         data.table.name = "Attune_EDI_Table_merged",
+         data.table.name = "attune-transect-underway-continuous",
          temporal.coverage = temporal_coverage(data_table$date_time_utc),
          geographic.description = "NES-LTER Transect",
          geographic.coordinates = geographic_coordinates(data_table$latitude,
@@ -71,9 +71,52 @@ make_eml(here(),
          maintenance.description = "ongoing",
          user.id = "NES",
          user.domain = "LTER",
-         other.entity = c("Settings_configuration_history.csv"),
-         other.entity.description = c("Metadata for instrument settings configuration per cruise"),
-         other.entity.name = c("Settings configuration history"),
+         other.entity = c("Settings_configuration_history.csv",
+                          "nes_lter_attune_fcs_20180131_EN608.tar.bz2",
+                          "nes_lter_attune_fcs_20180404_AR28.tar.bz2",
+                          "nes_lter_attune_fcs_20180414_AR29.tar.bz2",
+                          "nes_lter_attune_fcs_20180720_EN617.tar.bz2",
+                          "nes_lter_attune_fcs_20181020_AR31.tar.bz2",
+                          "nes_lter_attune_fcs_20190201_EN627.tar.bz2",
+                          "nes_lter_attune_fcs_20190414_AR34.tar.bz2",
+                          "nes_lter_attune_fcs_20190512_RB1904.tar.bz2",
+                          "nes_lter_attune_fcs_20190705_TN368.tar.bz2",
+                          "nes_lter_attune_fcs_20190820_EN644.tar.bz2",
+                          "nes_lter_attune_fcs_20191005_AR39.tar.bz2",
+                          "nes_lter_attune_fcs_20200201_EN649.tar.bz2",
+                          "nes_lter_attune_fcs_20200311_AR43.tar.bz2",
+                          "nes_lter_attune_fcs_20200725_EN655.tar.bz2",
+                          "nes_lter_attune_fcs_20201013_EN657.tar.bz2",
+                          "nes_lter_attune_fcs_20210203_EN661.tar.bz2",
+                          "nes_lter_attune_fcs_20210716_EN668.tar.bz2",
+                          "nes_lter_attune_fcs_20211108_AR61B.tar.bz2",
+                          "nes_lter_attune_fcs_20211117_AR62.tar.bz2",
+                          "nes_lter_attune_fcs_20211126_AR63.tar.bz2",
+                          "nes_lter_attune_fcs_20220216_AT46.tar.bz2"
+         ),
+         other.entity.description = c("Metadata for instrument settings configuration per cruise",
+                                      "raw FCS datafiles from Cruise EN608",
+                                      "raw FCS datafiles from Cruise AR28",
+                                      "raw FCS datafiles from Cruise AR29",
+                                      "raw FCS datafiles from Cruise EN617",
+                                      "raw FCS datafiles from Cruise AR31",
+                                      "raw FCS datafiles from Cruise EN627",
+                                      "raw FCS datafiles from Cruise AR34",
+                                      "raw FCS datafiles from Cruise RB1904",
+                                      "raw FCS datafiles from Cruise TN368",
+                                      "raw FCS datafiles from Cruise EN644",
+                                      "raw FCS datafiles from Cruise AR39",
+                                      "raw FCS datafiles from Cruise EN649",
+                                      "raw FCS datafiles from Cruise AR43",
+                                      "raw FCS datafiles from Cruise EN655",
+                                      "raw FCS datafiles from Cruise EN657",
+                                      "raw FCS datafiles from Cruise EN661",
+                                      "raw FCS datafiles from Cruise EN668",
+                                      "raw FCS datafiles from Cruise AR61B",
+                                      "raw FCS datafiles from Cruise AR62",
+                                      "raw FCS datafiles from Cruise AR63",
+                                      "raw FCS datafiles from Cruise AT46"
+         ),
          package.id = pkg_id)
 
 project_insert(pkg_id,'parent_project_SPIROPA_OTZ_RAPID.xml')
