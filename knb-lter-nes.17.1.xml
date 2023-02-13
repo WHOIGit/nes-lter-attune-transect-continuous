@@ -912,8 +912,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN608</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20180131_EN608.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">5348414752</size>
+        <authentication method="MD5">f838506691e00f320e06498664d86d21</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -927,8 +927,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR28B</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20180404_AR28B.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">7419247447</size>
+        <authentication method="MD5">bbecb76c2e2ada49ade6c9acea141758</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -942,8 +942,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR29</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20180414_AR29.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">12592251035</size>
+        <authentication method="MD5">22777d6aa165fa97a2d6c7fc606bce1a</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -957,8 +957,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN617</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20180720_EN617.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">9442693829</size>
+        <authentication method="MD5">106450a7a20979c19da54db0448c9aa6</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -972,8 +972,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR31A</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20181020_AR31A.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">5779890695</size>
+        <authentication method="MD5">e5a792e2685210e3a0d64a56b3e5c74d</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -987,8 +987,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN627</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20190201_EN627.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">8573005634</size>
+        <authentication method="MD5">c0f6b27d651695c2f70b60ef4c23f053</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1002,8 +1002,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR34B</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20190414_AR34B.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">9665279219</size>
+        <authentication method="MD5">6925e30a1e5b11d0f7dd6da043029077</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1017,8 +1017,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise RB1904</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20190512_RB1904.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">22824673555</size>
+        <authentication method="MD5">96e4f76c0d69cc5f391a3f6fa169cf14</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1032,8 +1032,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise TN368</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20190705_TN368.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">4546239098</size>
+        <authentication method="MD5">368ba08f98c1a83a6716ae5fc1e998f5</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1047,8 +1047,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN644</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20190820_EN644.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">3811575922</size>
+        <authentication method="MD5">1310d91e166af4c6b3e0197a8b787c52</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1062,8 +1062,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR39A</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20191005_AR39A.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">2738025625</size>
+        <authentication method="MD5">b38968fe2f162bec58cbb4df6b033823</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1077,8 +1077,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN649</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20200201_EN649.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">848711137</size>
+        <authentication method="MD5">d19e0f0b07e0f7f224357d5285ffcce3</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1092,8 +1092,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR43</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20200311_AR43.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">1816751099</size>
+        <authentication method="MD5">d563f12d49c67dde468d5a520ef42b74</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1107,8 +1107,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN655</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20200725_EN655.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">2057786895</size>
+        <authentication method="MD5">4d297cff27de7882b5a1674ec2400f6c</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1122,8 +1122,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN657</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20201013_EN657.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">4382738261</size>
+        <authentication method="MD5">dcb351444cefa35d24ceeff1d22fd877</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1137,8 +1137,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN661</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20210203_EN661.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">1449076251</size>
+        <authentication method="MD5">629ac3a72e67b44703fb8660eb59105c</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1152,8 +1152,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise EN668</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20210716_EN668.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">3032890857</size>
+        <authentication method="MD5">9f6adbe42e53590bb56d7edbe2da5dfb</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1167,8 +1167,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR61B</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20211108_AR61B.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">2666252973</size>
+        <authentication method="MD5">e52e58c44921ed264480e2f19978301f</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1182,8 +1182,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR62</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20211117_AR62.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">1087609396</size>
+        <authentication method="MD5">8e710c9b5a7038aab7b808b3c81e887a</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1197,8 +1197,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AR63</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20211126_AR63.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">633182529</size>
+        <authentication method="MD5">1463749b79c4068ffbbf36d3186fd71f</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
@@ -1212,8 +1212,8 @@ This data package includes data collected on cruises funded by other projects: w
       <entityDescription>raw FCS datafiles from Cruise AT46</entityDescription>
       <physical>
         <objectName>nes_lter_attune_fcs_20220216_AT46.tar.bz2</objectName>
-        <size unit="bytes">4</size>
-        <authentication method="MD5">098f6bcd4621d373cade4e832627b4f6</authentication>
+        <size unit="bytes">1120794963</size>
+        <authentication method="MD5">da0c6e361f2e196d779f69a915b5aa00</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>Unknown</formatName>
