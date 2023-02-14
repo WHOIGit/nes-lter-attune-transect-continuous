@@ -59,6 +59,15 @@ Generate the package and insert the parent project node into the resulting EML
 # now using actual package ID
 pkg_id <- "knb-lter-nes.17.1"
 
+# Because EDI has a file upload limit of 500 MB and our tar files are larger,
+# dummy tar files were created in order to run the make_eml.
+# After the make_eml is run, the output EML file was manually
+# edited to enter the actual tar file checksums and file sizes instead of the
+# dummy checksums and file sizes.
+
+# WARNING!!! - if the make_eml is rerun, the manually edited checksums and file
+#              sizes in knb-lter-nes.17.1 will be overwritten.
+
 make_eml(here(),
          dataset.title = "Abundance, biovolume, and biomass of Synechococcus and eukaryote pico- and nano- plankton from continuous underway flow cytometry during NES-LTER Transect cruises, ongoing since 2018",
          data.table = "attune-transect-underway-continuous.csv",
