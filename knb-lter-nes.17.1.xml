@@ -935,7 +935,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20180404_AR28B.tar.bz2</entityName>
@@ -955,7 +955,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20180414_AR29.tar.bz2</entityName>
@@ -975,7 +975,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20180720_EN617.tar.bz2</entityName>
@@ -995,7 +995,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20181020_AR31A.tar.bz2</entityName>
@@ -1015,7 +1015,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20190201_EN627.tar.bz2</entityName>
@@ -1035,7 +1035,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20190414_AR34B.tar.bz2</entityName>
@@ -1055,7 +1055,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20190512_RB1904.tar.bz2</entityName>
@@ -1075,7 +1075,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20190705_TN368.tar.bz2</entityName>
@@ -1095,7 +1095,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20190820_EN644.tar.bz2</entityName>
@@ -1115,7 +1115,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20191005_AR39A.tar.bz2</entityName>
@@ -1135,7 +1135,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20200201_EN649.tar.bz2</entityName>
@@ -1155,7 +1155,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20200311_AR43.tar.bz2</entityName>
@@ -1175,7 +1175,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20200725_EN655.tar.bz2</entityName>
@@ -1195,7 +1195,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20201013_EN657.tar.bz2</entityName>
@@ -1215,7 +1215,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20210203_EN661.tar.bz2</entityName>
@@ -1235,7 +1235,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20210716_EN668.tar.bz2</entityName>
@@ -1255,7 +1255,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20211108_AR61B.tar.bz2</entityName>
@@ -1275,7 +1275,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20211117_AR62.tar.bz2</entityName>
@@ -1295,7 +1295,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20211126_AR63.tar.bz2</entityName>
@@ -1315,7 +1315,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>nes_lter_attune_fcs_20220216_AT46.tar.bz2</entityName>
@@ -1335,7 +1335,7 @@ This data package includes data collected on cruises funded by other projects: w
           </online>
         </distribution>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
   </dataset>
   <additionalMetadata>
