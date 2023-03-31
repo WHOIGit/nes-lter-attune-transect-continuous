@@ -57,7 +57,7 @@ Generate the package and insert the parent project node into the resulting EML
 
 ```{r}
 # now using actual package ID
-pkg_id <- "knb-lter-nes.17.1"
+pkg_id <- "knb-lter-nes.17.2"
 
 # Because EDI has a file upload limit of 500 MB and our tar files are larger,
 # dummy tar files were created in order to run the make_eml.
